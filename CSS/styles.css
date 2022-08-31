@@ -1,0 +1,141 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(136, 192, 173);
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    padding: 20px 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.cardImg {
+    width: 80%;
+}
+
+.cardPrice {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonCTA {
+    margin: 10px 0;
+    background-color: rgb(216, 77, 77);
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonCTA:hover {
+    background-color: rgb(184, 64, 64);
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+.buscador1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  
+}
+
+#botonClick {
+    margin: 20px;
+}
+
+
+/* Buscador */
+
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+
+.menuList {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.searchBox input, .searchButton {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(218, 218, 218);
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 30%;
+}
+
+.searchButton {
+    height: 100%;
+    width: 19%;
+    margin: 0 3%;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menuTabImg {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.menuTabImg img {
+    width: 100%;
+}
+
+.menuTabText {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.carritoCompras {
+    margin: 20px;
+}
+
+#botonConfirmar {
+    background: linear-gradient(to right, #319bb6 40%, #85916b);
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    margin: 20px;
+    font-size: large;
+    font-weight:bolder;
+    color: rgb(241, 229, 229);
+    text-shadow:#292e30;
+    box-shadow: 1px 1px 2px #333;
+    
+}
+
+
+.confirmame :hover {
+    zoom: 120%;
+    cursor: pointer;
+}
+
+
+

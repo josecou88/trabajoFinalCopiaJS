@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "producto": "wrap palta pollo",
+        "imgSrc": " https://www.casafe.org/wp-content/uploads/2017/03/foto-wrap-pollo-verduras.jpg ",
+        "descripcion": "pollo palta lechuga tomate",
+        "precio": 1000
+    },
+    {
+        "id": 2,
+        "producto": "ensalada mediterranea",
+        "imgSrc": "https://static8.depositphotos.com/1000339/1004/i/950/depositphotos_10047390-stock-photo-chicken-salad.jpg",
+        "descripcion": "Rucula, cherry, queso brie, aceitunas",
+        "precio": 900
+    },
+    {
+        "id": 3,
+        "producto": "baguette Americana",
+        "imgSrc": "https://www.unileverfoodsolutions.com.co/dam/global-ufs/mcos/nola/colombia/calcmenu/recipes/CO-recipes/sandwiches/sandwich-de-queso-fundido/main-header.jpg",
+        "descripcion": "pan baguette, cheddar, carne desmenuzada, panceta y barbacoa",
+        "precio": 800
+    }
+]
